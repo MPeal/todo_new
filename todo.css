@@ -1,0 +1,72 @@
+.list-wrapper {
+	width: 500px;
+	position: relative;
+	float: none;
+	margin: 0 auto;
+	margin-top: 25vh;
+	border: 1px solid black;
+}
+
+.nav-tabs li {
+	width: 50%;
+}
+
+.nav.nav-tabs li.tab.active a {
+	background: #0a9df352;
+}
+
+.tab a {
+	cursor: pointer;
+}
+
+#input-wrapper {
+	margin: 10px;
+}
+
+#tasktxt {
+	margin: 0 5px;
+}
+
+#todo-list {
+	list-style: none;
+}
+
+#todo-list .row {
+	margin: 10px 0;
+}
+
+#todo-list li span {
+	margin: 0 10px;
+}
+
+.glyphicon-move {
+	cursor: grab;
+}
+
+.glyphicon-move:active {
+	cursor: grabbing;
+}
+
+.glyphicon-plus {
+	color: green;
+}
+
+.glyphicon-plus.disabled {
+	color: grey;
+	cursor: not-allowed;
+	pointer-events: : none;
+}
+
+.glyphicon-plus:not(.disabled):hover {
+	color: darkgreen;
+	cursor: pointer;
+}
+
+.glyphicon-minus {
+	color: red;
+	cursor: pointer;
+}
+
+.glyphicon-minus:hover {
+	color: darkred;
+}

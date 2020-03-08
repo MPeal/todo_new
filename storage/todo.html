@@ -1,0 +1,31 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../todo.css">
+</head>
+<body>
+	<div class="list-wrapper text-center">
+		<ul class="nav nav-tabs">
+			<li class="tab" id="a-tab" role="presentation" class="active" data-value="a">
+				<a>List A</a>
+			</li>
+  			<li class="tab" id="b-tab" role="presentation" data-value="b">
+  				<a>List B</a>
+  			</li>
+		</ul>
+		<div class="row">
+			<div class="col-md-12 col-lg-12 col-sm-12" id="input-wrapper">
+				<label for="tasktxt">Add Task</label>
+				<input type="text" id="tasktxt">
+				<span class="glyphicon glyphicon-plus disabled"></span>
+			</div>
+		</div>
+		<div class="row">
+			<ul id="todo-list"></ul>
+		</div>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+	<script src="todo.js"></script>
+</body>
+<html>
